@@ -1,3 +1,8 @@
+@font-face {
+  font-family: myfont;
+  src: url(/bitter/Bitter-Italic-VariableFont_wght.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +16,8 @@ body {
 }
 
 body {
-  font-family: "Anurati";
+  /* font-family: "Anurati"; */
+  font-family: myfont;
   display: flex;
   align-items: center;
   justify-content: center;
